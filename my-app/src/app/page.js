@@ -24,7 +24,7 @@ export default function Home() {
 					<div className="col-span-2 row-span-2 bg-amber-600 rounded-2xl items-center justify-center p-2 display flex flex-col">
 						<div>
 							<Image
-								src="/me2.png"
+								src={`${process.env.NEXT_PUBLIC_BASE_PATH}/me2.png`}
 								alt="Jordyn Bowe"
 								loading="eager"
 								width={400}
