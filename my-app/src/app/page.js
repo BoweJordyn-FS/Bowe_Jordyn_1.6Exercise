@@ -20,8 +20,8 @@ export default function Home() {
 	return (
 		<div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
 			<main className="display grid items-center justify-center w-full flex-1">
-				<div className="grid grid-cols-5 gap-4 max-w-[80vw]">
-					<div className="col-span-2 row-span-2 bg-[#FF4500] rounded-2xl items-center justify-center p-2 display flex flex-col">
+				<div className="grid grid-cols-5 gap-4 max-w-[80vw] text-black">
+					<div className="col-span-2 row-span-2 bg-amber-600 rounded-2xl items-center justify-center p-2 display flex flex-col">
 						<div>
 							<Image
 								src={`${process.env.NEXT_PUBLIC_BASE_PATH}/me2.png`}
@@ -38,7 +38,7 @@ export default function Home() {
 							</p>
 						</div>
 					</div>
-					<div className="col-span-3 bg-[#DAA520] rounded-2xl p-8">
+					<div className="col-span-3 bg-amber-500 rounded-2xl p-8">
 						<h2 className="text-2xl font-bold p-2">About Me</h2>
 						<p className="indent-4 text-base/8 leading-8 font-medium mb-2">
 							Hi, I'm Jordyn Bowe, a web development student at Full Sail
@@ -62,7 +62,7 @@ export default function Home() {
 							a style to try, or a problem to solve in a fresh way, I'm in.
 						</p>
 					</div>
-					<div className="col-start-3 col-span-3 row-start-2 bg-[##FF6F61] rounded-2xl p-6">
+					<div className="col-start-3 col-span-3 row-start-2 bg-amber-400 rounded-2xl p-6">
 						<div className="m-4">
 							<h2 className="text-2xl font-bold p-2">Tech Stack</h2>
 							<ul className="flex flex-row justify-evenly">
